@@ -1,0 +1,10 @@
+[project]
+name = "loopmem"
+version = "0.1.0"
+description = "Sleep-aware spaced repetition scheduler based on the loop-counter memory model"
+requires-python = ">=3.9"
+[project.scripts]
+loopmem = "loopmem.cli:main"
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
